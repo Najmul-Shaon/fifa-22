@@ -61,6 +61,11 @@ main {
     padding: 12px 20px;
 }
 
+.button:hover {
+    background-color: goldenrod;
+    transition: background-color 3s;
+}
+
 .button a {
     text-decoration: none;
     color: #FFFFFF;
@@ -204,12 +209,12 @@ hr {
     color: #FFFFFF;
 }
 
-.social-icon{
+.social-icon {
     font-size: 20px;
     text-align: center;
 }
 
-.fa-brands{
+.fa-brands {
     margin: 5px;
     color: #FFFFFF;
 }
