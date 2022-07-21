@@ -136,7 +136,7 @@ aside {
 }
 
 .blog {
-    background-color: gray;
+    background-color: #c7c7c7;
     width: 270px;
     border-radius: 10px;
 }
@@ -222,4 +222,20 @@ hr {
 .fa-brands {
     margin: 5px;
     color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width:688px) {
+
+    .top-section, footer {
+        display: none;
+    }
+
+    .aside-nav{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
 }
